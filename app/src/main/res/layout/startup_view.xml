@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/start_image"
+    android:orientation="vertical" >
+  
+      <ImageView
+          android:id="@+id/imageView"
+          android:layout_width="match_parent"
+          android:layout_height="106dp"
+
+          android:layout_marginTop="170dp"
+          android:src="@drawable/app_icon"
+          android:visibility="visible" />
+    
+</LinearLayout>

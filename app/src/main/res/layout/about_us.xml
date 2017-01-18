@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background" >
+
+    <TextView
+        android:id="@+id/textViewMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="HOPE\nThe People Behind The App"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:textColor="@color/abc_search_url_text_normal"
+        />
+
+        <TextView
+        android:id="@+id/promeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Rifat Ara Tasnim Prome\n(Dept. of CSE,KUET)" 
+        android:textSize="20dp"
+        android:textColor="@android:color/darker_gray" />
+    
+    <TextView
+        android:id="@+id/ashikTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Fahim Al Mahmud Ashik\n(Dept. of CSE,KUET)" 
+        android:textSize="20dp"
+        android:textColor="@android:color/darker_gray" />
+
+
+
+    <TextView
+        android:id="@+id/copywrite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:gravity="bottom|right"
+        android:padding="30dp"
+        android:text="Copywrite @AskMe.\nAll Rights Reserved."
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/darker_gray" />
+
+    <Button
+        android:id="@+id/exit_aboutUs_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text=" Exit " 
+        android:textSize="20dp"
+        android:background="@drawable/button"
+        />
+
+</LinearLayout>

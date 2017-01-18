@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+      <string-array name="newspaper_list_bangla">
+        <item name="paper_bangla_1">Prothom-Alo</item>
+        <item name="paper_bangla_2">Somokal</item>
+        <item name="paper_bangla_3">Kaler Kantha</item>
+          <item name="paper_bangla_4">Jugantar</item>
+        
+     </string-array>   
+        
+       <string-array name="newspaper_list_english">
+            <item name="paper_english_1">BD News 24</item>
+        	<item name="paper_english_2">THE Bangladesh Today</item>
+           
+       
+	</string-array>
+</resources>
+
